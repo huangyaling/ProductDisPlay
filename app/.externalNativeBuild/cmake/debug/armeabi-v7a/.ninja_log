@@ -9,3 +9,5 @@
 253	617	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	fa5dac128a2d253d
 1	241	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	f22c2d93d41d3e06
 241	592	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	fa5dac128a2d253d
+3	305	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	f22c2d93d41d3e06
+305	884	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	fa5dac128a2d253d
