@@ -1,19 +1,19 @@
 The target system is: Android - 1 - i686
 The host system is: Linux - 4.13.0-31-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a81a9"
-[1/2] Building C object CMakeFiles/cmTC_a81a9.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_a81a9
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_aecec"
+[1/2] Building C object CMakeFiles/cmTC_aecec.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_aecec
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_eecb4"
-[1/2] Building C object CMakeFiles/cmTC_eecb4.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_eecb4
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2fd62"
+[1/2] Building C object CMakeFiles/cmTC_2fd62.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_2fd62
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /home/dell/Android/Sdk/ndk-bundle/toolchains/x
 Selected GCC installation: /home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_eecb4 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_eecb4.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_2fd62 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2fd62.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_eecb4"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_eecb4.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_eecb4]
+  ignore line: [Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2fd62"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_2fd62.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_2fd62]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_eecb4 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_eecb4.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_2fd62 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2fd62.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
     arg [/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
     arg [-zrelro] ==> ignore
@@ -52,7 +52,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eecb4] ==> ignore
+    arg [cmTC_2fd62] ==> ignore
     arg [/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -71,7 +71,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_eecb4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2fd62.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -92,11 +92,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_08e24"
-[1/2] Building C object CMakeFiles/cmTC_08e24.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_08e24
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f0ed8"
+[1/2] Building C object CMakeFiles/cmTC_f0ed8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_f0ed8
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -106,11 +106,11 @@ Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_08e
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_96b6c"
-[1/2] Building C object CMakeFiles/cmTC_96b6c.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_96b6c
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_39640"
+[1/2] Building C object CMakeFiles/cmTC_39640.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_39640
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -120,11 +120,11 @@ Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_96b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f847f"
-[1/2] Building C object CMakeFiles/cmTC_f847f.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f847f
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f6dad"
+[1/2] Building C object CMakeFiles/cmTC_f6dad.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_f6dad
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -132,19 +132,19 @@ Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f84
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b12a5"
-[1/2] Building CXX object CMakeFiles/cmTC_b12a5.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_b12a5
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3c8b0"
+[1/2] Building CXX object CMakeFiles/cmTC_3c8b0.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_3c8b0
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_49851"
-[1/2] Building CXX object CMakeFiles/cmTC_49851.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_49851
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b7cd9"
+[1/2] Building CXX object CMakeFiles/cmTC_b7cd9.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_b7cd9
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -153,16 +153,16 @@ Found candidate GCC installation: /home/dell/Android/Sdk/ndk-bundle/toolchains/x
 Selected GCC installation: /home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_49851 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_49851.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b7cd9 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b7cd9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_49851"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_49851.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_49851]
+  ignore line: [Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b7cd9"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b7cd9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_b7cd9]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -173,7 +173,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_49851 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_49851.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b7cd9 /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b7cd9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
     arg [/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
     arg [-zrelro] ==> ignore
@@ -183,7 +183,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_49851] ==> ignore
+    arg [cmTC_b7cd9] ==> ignore
     arg [/home/dell/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/dell/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/dell/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -202,7 +202,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_49851.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b7cd9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -229,11 +229,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_02804"
-[1/2] Building CXX object CMakeFiles/cmTC_02804.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_02804
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a567c"
+[1/2] Building CXX object CMakeFiles/cmTC_a567c.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_a567c
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -296,11 +296,11 @@ Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_028
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_60b1e"
-[1/2] Building CXX object CMakeFiles/cmTC_60b1e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_60b1e
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_71394"
+[1/2] Building CXX object CMakeFiles/cmTC_71394.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_71394
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -363,11 +363,11 @@ Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_60b
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_58d3d"
-[1/2] Building CXX object CMakeFiles/cmTC_58d3d.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_58d3d
+Run Build Command:"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c4039"
+[1/2] Building CXX object CMakeFiles/cmTC_c4039.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_c4039
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ProductDisplay</string>
+    <string name="home_tab_test">测试</string>
+    <string name="home_tab_db">统计</string>
+    <string name="home_tab_adv">资讯</string>
+    <string name="gv_text_item1">目标分类</string>
+    <string name="gv_text_item2">目标检测</string>
+    <string name="gv_text_item3">语音语义分析</string>
+    <string name="gv_text_item4">更多</string>
 </resources>

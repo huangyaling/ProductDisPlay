@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/home/dell/huangyaling/ProductDisplay/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/home/dell/huangyaling/MyProject/ProductDisPlay/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+		"/home/dell/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,18 +12,18 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/dell/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+			"buildCommand" : "/home/dell/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/dell/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/dell/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/dell/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/dell/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/dell/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/dell/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/dell/huangyaling/ProductDisplay/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/dell/huangyaling/ProductDisplay/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/home/dell/huangyaling/MyProject/ProductDisPlay/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/dell/huangyaling/MyProject/ProductDisPlay/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "/home/dell/huangyaling/ProductDisplay/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"output" : "/home/dell/huangyaling/MyProject/ProductDisPlay/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
 			"toolchain" : "13013303100772050520"
 		}
 	},
